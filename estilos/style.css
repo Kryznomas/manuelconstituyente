@@ -1,0 +1,565 @@
+body {
+    max-width:auto;
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+}
+
+nav {
+
+    max-height: 20%;
+    width: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-color: darkorange;
+    border-width: 3px;
+    font-weight: 600;
+}
+
+.logosymenu {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.logosymenu a {
+    width:100%;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.logo {
+    height: 10vh;
+    width:auto;
+    
+}
+
+
+.logoldp {
+    height: 10vh;
+    width:auto;
+    
+}
+
+nav a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 12pt;
+}
+
+.logosymenu :hover{
+    background-color:darkorange;
+    
+}
+
+header {
+    width: auto;
+    max-height:20%;
+    background-image: url(/imagenes/plazablur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cambria;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    height:40vh;
+    width:auto;
+    max-width:50%;
+    margin-left: 0;
+
+
+}
+
+.frase{
+
+    max-width:30%;
+    display:flex;
+    flex-direction: column;
+    padding:0;
+    margin-left:4vw;
+    
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 1px #000000;
+    margin: 0;
+}
+header h2 {
+
+    margin-bottom:2vh;
+    color:white;
+    text-align: justify;
+    background-blend-mode:luminosity;
+    text-shadow: 2px 3px 2px #000000;
+}
+
+header h4{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 1px #000000;
+    margin:0;
+
+}
+
+.redessociales {
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(2, 2, 12);
+
+    
+    
+}
+
+.redessociales h2 {
+    color: white;
+    margin: 0;
+}
+
+.redessociales img{
+    height: 3em;
+    padding: 0.5em 1em 0.5em 1em; 
+}
+
+.firmas {
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.encabezadosfirmas h2, h3 {
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.apoyofirmas{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    width:95%;
+    padding-left: 2em;
+    
+}
+
+.instrucciones, .claveunica {
+
+    padding-left: 3em;
+    padding-right: 3em;
+    font-weight: 400;
+    margin-left:1em;
+    border-color: rgb(2, 2, 12);
+    border-style:solid;
+
+}
+
+.instrucciones ol {
+
+    font-weight: 400;
+
+}
+
+.firmas p{
+    text-align: center;
+}
+
+.propuestas {
+    width:auto;
+    background-color: rgb(2, 2, 12);
+    color:white;
+    display:flex;
+    flex-direction: column;
+}
+
+.contenidoconstitucion {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenidoconstitucion img{
+    
+    max-width: 30%;
+    padding: 2vh 2vw 0 0;
+}
+
+.constitucion ol{
+
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+.propuestas h2 {
+    text-align: center;
+}
+
+.propuestas ol{
+    margin:2em;
+}
+
+.propuestas p{
+    text-align: center;
+}
+
+.propuestas a{
+    color: darkorange;
+}
+
+.propuestas h3 {
+    text-align: left;
+    margin-left: 3em;
+}
+
+.lalista {
+    width:auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.lalista h2{
+    text-align: center;
+}
+
+.descripcionlista {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.descripcionlista p {
+
+    width:60%;
+    margin: 0 3vw 0 2vw;
+    text-align: justify;
+
+}
+
+.descripcionlista iframe {
+    margin:0 0 3vh 3vw;
+    width: 35%;
+}
+
+footer {
+    width:auto;
+    padding:1em;
+    background-color:rgb(2, 2, 12);
+    color:white;
+    align-items: top;
+    border-style: solid;
+    border-color: darkorange;
+    border-width: 3px;
+    
+    
+}
+
+.logosredes {
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+
+footer img {
+    height:3em;
+
+}
+
+.logosredes img {
+    width:2em;
+    height:2em;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.rrssfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+
+
+footer h2 {
+
+    margin:0;
+    text-align: center;
+}
+
+footer p {
+
+    text-align: center;
+
+}
+.datoscontacto {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+
+.datoscontacto img{
+    height: 2em;
+    width: 2em;
+} 
+
+/* Pagina trabajo */
+
+.titulo{
+    text-align: center;
+    color:rgb(2, 2, 12);
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkorange;
+}
+
+.observador {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.descripcionobservador img {
+    height: 18em;
+    margin-left: 3em;
+    max-width: 50%;
+    
+}
+
+.descripcionobservador {
+    
+    padding-bottom: 3em;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.descripcionobservador p {
+
+    width:60%;
+    margin-left: 2em;
+    text-align: justify;
+
+}
+
+.trabajo {
+    background-color: rgb(2, 2, 12);
+    color:white;
+    display:flex;
+    flex-direction: column;
+}
+
+.trabajo h2 {
+
+    text-align: center;
+}
+
+.trabajo2 {
+    
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.trabajo2 img{
+    height: 18em;
+    max-width: 50%;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+.trabajotexto p {
+    padding-left: 2em;
+    max-width: 90%;
+    text-align: justify;
+}
+
+.relleno {
+    height: 5px;
+    background-color: white;
+}
+
+/* Página Propuestas */
+
+.propuestasweb {
+    background-color: white;
+    padding-left: 3em;
+    line-height: 2;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+
+    body {
+
+        max-width: 768px;
+    }
+
+    nav {
+
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+
+        order:-1;
+    }
+
+    header {
+
+    flex-direction: column;
+    }
+    header img {
+        max-height: 30vh;
+        width:auto;
+        margin-top: 2vh;
+        align-items: center;
+        
+        
+    }
+    .frase {
+        margin:0;
+        max-width:80%;
+        margin-bottom: 2vh;
+    }
+
+    .encabezadosfirmas h2, h3, p {
+
+        text-align: justify;
+        margin:0 3vw 0 3vw;
+    }
+
+    .apoyofirmas {
+        width:auto;
+        flex-wrap:wrap;
+        align-items: center;
+    }
+    .instrucciones, .claveunica {
+
+        margin: 2vh 3vw 0 3vw;
+    }
+
+    .contenidoconstitucion {
+
+        flex-wrap:wrap;
+        justify-content: center;
+
+    }
+
+    .contenidoconstitucion img {
+        max-width:80%;
+        height:auto;
+        padding:0;
+        margin: 0 0 2vh 0;
+    }
+
+    .descripcionlista {
+
+        flex-wrap: wrap;
+        margin:0;
+        justify-content: center;
+    }
+
+    .descripcionlista p {
+
+        width: 90%;
+        margin: 1vh;
+    }
+
+    .descripcionlista iframe {
+        
+        width: 80%;
+    }
+
+    .descripcionobservador {
+
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+
+    .descripcionobservador p{
+        width: auto;
+        order: -1;
+    }
+
+    .descripcionobservador img {
+
+        width: 80%;
+        height: auto;
+        margin: 2vh 0 0 0;
+    }
+    
+    .trabajo2 { 
+
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .trabajo2 img {
+
+        width: 80%;
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    header img {
+    max-height: 25vh;
+    width:auto;
+    margin-top: 2vh;
+}
+
+    header h1 {
+
+    font-size: x-large;
+    }
+
+    header h2 {
+
+        font-size: x-large;
+    }
+
+    .rrssfooter {
+        flex-wrap: wrap;
+        justify-content:center
+    }
+
+    
+}
